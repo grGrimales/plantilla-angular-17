@@ -1,0 +1,32 @@
+/* top-navbar.component.scss */
+.hidden {
+    display: none;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .nav-links li {
+    cursor: pointer;
+  }
+  
+  .nav-links li a {
+    padding: 0.5rem 1rem;
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .nav-links li a:hover {
+    background-color: #4b5563;
+  }
+  
